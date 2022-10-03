@@ -1,0 +1,17 @@
+1 -melhorar a introdução 
+1 -  sobre redes neurais e deep learning 
+ 2 - CL 
+        Bootstrapping
+		Alternative Pacing Functions
+		
+-> loss function da rede usada tem o mesmo siguinificado 
+    complementar o desenho 
+	
+questões que tem uma arquitetura de rede simples 
+questões que tem uma completa
+
+banco de questões , tem questoes que exigem uma questão complicada e simples,  
+Como treinar isso em termo de curriculum ? 
+
+questões relacionacis arquitetura mais complicada 
+ 
