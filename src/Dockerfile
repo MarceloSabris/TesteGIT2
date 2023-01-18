@@ -5,18 +5,18 @@ WORKDIR /app
 EXPOSE 80
 EXPOSE 443
 
-FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
-WORKDIR /src
-COPY ["Saldo.WebAPI/Saldo.WebAPI.csproj", "Saldo.WebAPI/"]
-RUN dotnet restore "Saldo.WebAPI/Saldo.WebAPI.csproj"
-COPY . .
-WORKDIR "/src/Saldo.WebAPI"
-RUN dotnet build "Saldo.WebAPI.csproj" -c Release -o /app/build
+#FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+#WORKDIR /src
+#COPY ["Saldo.WebAPI/Saldo.WebAPI.csproj", "Saldo.WebAPI/"]
+#RUN dotnet restore "Saldo.WebAPI/Saldo.WebAPI.csproj"
+#COPY . .
+#WORKDIR "/src/Saldo.WebAPI"
+#RUN dotnet build "Saldo.WebAPI.csproj" -c Release -o /app/build
 
-FROM build AS publish
-RUN dotnet publish "Saldo.WebAPI.csproj" -c Release -o /app/publish
+#FROM build AS publish
+#RUN dotnet publish "Saldo.WebAPI.csproj" -c Release -o /app/publish
 
-FROM base AS final
-WORKDIR /app
-COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "Saldo.WebAPI.dll"]
+#FROM base AS final
+#WORKDIR /app
+#COPY --from=publish /app/publish .
+#ENTRYPOINT ["dotnet", "Saldo.WebAPI.dll"]

@@ -9,7 +9,7 @@ services:
         - db
         - rabbitmq
         - mongo-express
-        - mongo
+        - keycloak
   rabbitmq: # login guest:guest
     image: rabbitmq:3-management
     hostname: "rabbitmq"
@@ -23,10 +23,16 @@ services:
     - "15671:15671"
     - "15672:15672"
   db:
-    image: "mcr.microsoft.com/mssql/server"
+    container_name: db_mysql
+    image: mysql:latest
     environment:
-            SA_PASSWORD: "teste"
-            ACCEPT_EULA: "Y"
+      - MYSQL_ROOT_PASSWORD=root_pwd
+      - MYSQL_USER=admin
+      - MYSQL_PASSWORD=pa55word
+    ports:
+      - "3306:3306"
+    volumes:
+      - .docker/db/mysql:/var/lib/mysql
             
   mongo-express:
     image: mongo-express
@@ -38,23 +44,27 @@ services:
       ME_CONFIG_MONGODB_PORT: 27017
       ME_CONFIG_MONGODB_ADMINUSERNAME: root
       ME_CONFIG_MONGODB_ADMINPASSWORD: teste123!
-    links:
-      - mongo
+   
     networks:
       - mongo-compose-network
-
-  mongo:
-    image: mongo
+ 
+  keycloak:
+    container_name: keycloak
+    image: quay.io/keycloak/keycloak:19.0.1
     environment:
-      MONGO_INITDB_ROOT_USERNAME: root
-      MONGO_INITDB_ROOT_PASSWORD: teste123!
+      - KEYCLOAK_ADMIN=admin
+      - KEYCLOAK_ADMIN_PASSWORD=admin
+      - KC_DB=mysql
+      - KC_DB_USERNAME=admin
+      - KC_DB_PASSWORD=pa55word
+      - KC_DB_URL_HOST=db
+      - KC_DB_URL_PORT=3306
+      - KC_DB_SCHEMA=keycloak
     ports:
-      - "27017:27017"
-    volumes:
-      - /home/Teste/Desenvolvimento/Docker/Volumes/MongoDB:/data/db
-    networks:
-      - mongo-compose-network
-
+      - 8080:8080
+    command: start-dev
+    depends_on:
+      - db
 networks: 
-    mongo-compose-network:
-      driver: bridge
+  mongo-compose-network:
+    driver: bridge
