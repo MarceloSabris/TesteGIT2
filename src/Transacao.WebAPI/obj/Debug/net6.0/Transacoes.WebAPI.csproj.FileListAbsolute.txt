@@ -1,0 +1,7 @@
+C:\source\TesteGIT2\src\Transacao.WebAPI\obj\Debug\net6.0\Transacoes.WebAPI.csproj.AssemblyReference.cache
+C:\source\TesteGIT2\src\Transacao.WebAPI\obj\Debug\net6.0\Transacoes.WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\source\TesteGIT2\src\Transacao.WebAPI\obj\Debug\net6.0\Transacoes.WebAPI.AssemblyInfoInputs.cache
+C:\source\TesteGIT2\src\Transacao.WebAPI\obj\Debug\net6.0\Transacoes.WebAPI.AssemblyInfo.cs
+C:\source\TesteGIT2\src\Transacao.WebAPI\obj\Debug\net6.0\Transacoes.WebAPI.csproj.CoreCompileInputs.cache
+C:\source\TesteGIT2\src\Transacao.WebAPI\obj\Debug\net6.0\Transacoes.WebAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\source\TesteGIT2\src\Transacao.WebAPI\obj\Debug\net6.0\Transacoes.WebAPI.MvcApplicationPartsAssemblyInfo.cache

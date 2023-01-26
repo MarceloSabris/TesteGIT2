@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VpmAF9X9SjwejykGSSgVInEmf4cXNw1eCKhqFRpOQzfZJFmwoWFOMXEgHRU0hHSAjxpKXL5p+QiaQuQXq1A17g==",
+  "dgSpecHash": "wPFG1P/7IOEkCKDJvoAKrYQkM/JKDHLTnMdHaEcRHpYZSGORGDnVdESZbvfexDpgXXR1G2beg78AHNR6neCjEw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DELL\\source\\repos\\Saldo\\Transacao.Application\\Transacao.Application.csproj",
+  "projectFilePath": "C:\\source\\TesteGIT2\\src\\Transacao.Application\\Transacao.Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,0 +1,12 @@
+C:\source\TesteGIT2\src\Transacao.BootStrap\bin\Debug\net6.0\Transacao.BootStrap.deps.json
+C:\source\TesteGIT2\src\Transacao.BootStrap\bin\Debug\net6.0\Transacao.BootStrap.dll
+C:\source\TesteGIT2\src\Transacao.BootStrap\bin\Debug\net6.0\Transacao.BootStrap.pdb
+C:\source\TesteGIT2\src\Transacao.BootStrap\obj\Debug\net6.0\Transacao.BootStrap.csproj.AssemblyReference.cache
+C:\source\TesteGIT2\src\Transacao.BootStrap\obj\Debug\net6.0\Transacao.BootStrap.GeneratedMSBuildEditorConfig.editorconfig
+C:\source\TesteGIT2\src\Transacao.BootStrap\obj\Debug\net6.0\Transacao.BootStrap.AssemblyInfoInputs.cache
+C:\source\TesteGIT2\src\Transacao.BootStrap\obj\Debug\net6.0\Transacao.BootStrap.AssemblyInfo.cs
+C:\source\TesteGIT2\src\Transacao.BootStrap\obj\Debug\net6.0\Transacao.BootStrap.csproj.CoreCompileInputs.cache
+C:\source\TesteGIT2\src\Transacao.BootStrap\obj\Debug\net6.0\Transacao.BootStrap.dll
+C:\source\TesteGIT2\src\Transacao.BootStrap\obj\Debug\net6.0\refint\Transacao.BootStrap.dll
+C:\source\TesteGIT2\src\Transacao.BootStrap\obj\Debug\net6.0\Transacao.BootStrap.pdb
+C:\source\TesteGIT2\src\Transacao.BootStrap\obj\Debug\net6.0\ref\Transacao.BootStrap.dll

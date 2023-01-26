@@ -1,0 +1,12 @@
+C:\source\TesteGIT2\src\Transacao.Dommain\bin\Debug\net6.0\Transacao.Dommain.deps.json
+C:\source\TesteGIT2\src\Transacao.Dommain\bin\Debug\net6.0\Transacao.Dommain.dll
+C:\source\TesteGIT2\src\Transacao.Dommain\bin\Debug\net6.0\Transacao.Dommain.pdb
+C:\source\TesteGIT2\src\Transacao.Dommain\obj\Debug\net6.0\Transacao.Dommain.csproj.AssemblyReference.cache
+C:\source\TesteGIT2\src\Transacao.Dommain\obj\Debug\net6.0\Transacao.Dommain.GeneratedMSBuildEditorConfig.editorconfig
+C:\source\TesteGIT2\src\Transacao.Dommain\obj\Debug\net6.0\Transacao.Dommain.AssemblyInfoInputs.cache
+C:\source\TesteGIT2\src\Transacao.Dommain\obj\Debug\net6.0\Transacao.Dommain.AssemblyInfo.cs
+C:\source\TesteGIT2\src\Transacao.Dommain\obj\Debug\net6.0\Transacao.Dommain.csproj.CoreCompileInputs.cache
+C:\source\TesteGIT2\src\Transacao.Dommain\obj\Debug\net6.0\Transacao.Dommain.dll
+C:\source\TesteGIT2\src\Transacao.Dommain\obj\Debug\net6.0\refint\Transacao.Dommain.dll
+C:\source\TesteGIT2\src\Transacao.Dommain\obj\Debug\net6.0\Transacao.Dommain.pdb
+C:\source\TesteGIT2\src\Transacao.Dommain\obj\Debug\net6.0\ref\Transacao.Dommain.dll

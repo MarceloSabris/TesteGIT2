@@ -1,0 +1,12 @@
+C:\source\TesteGIT2\src\Transacao.InfraStructure.Mediator\bin\Debug\net6.0\Transacao.InfraStructure.Mediator.deps.json
+C:\source\TesteGIT2\src\Transacao.InfraStructure.Mediator\bin\Debug\net6.0\Transacao.InfraStructure.Mediator.dll
+C:\source\TesteGIT2\src\Transacao.InfraStructure.Mediator\bin\Debug\net6.0\Transacao.InfraStructure.Mediator.pdb
+C:\source\TesteGIT2\src\Transacao.InfraStructure.Mediator\obj\Debug\net6.0\Transacao.InfraStructure.Mediator.csproj.AssemblyReference.cache
+C:\source\TesteGIT2\src\Transacao.InfraStructure.Mediator\obj\Debug\net6.0\Transacao.InfraStructure.Mediator.GeneratedMSBuildEditorConfig.editorconfig
+C:\source\TesteGIT2\src\Transacao.InfraStructure.Mediator\obj\Debug\net6.0\Transacao.InfraStructure.Mediator.AssemblyInfoInputs.cache
+C:\source\TesteGIT2\src\Transacao.InfraStructure.Mediator\obj\Debug\net6.0\Transacao.InfraStructure.Mediator.AssemblyInfo.cs
+C:\source\TesteGIT2\src\Transacao.InfraStructure.Mediator\obj\Debug\net6.0\Transacao.InfraStructure.Mediator.csproj.CoreCompileInputs.cache
+C:\source\TesteGIT2\src\Transacao.InfraStructure.Mediator\obj\Debug\net6.0\Transacao.InfraStructure.Mediator.dll
+C:\source\TesteGIT2\src\Transacao.InfraStructure.Mediator\obj\Debug\net6.0\refint\Transacao.InfraStructure.Mediator.dll
+C:\source\TesteGIT2\src\Transacao.InfraStructure.Mediator\obj\Debug\net6.0\Transacao.InfraStructure.Mediator.pdb
+C:\source\TesteGIT2\src\Transacao.InfraStructure.Mediator\obj\Debug\net6.0\ref\Transacao.InfraStructure.Mediator.dll

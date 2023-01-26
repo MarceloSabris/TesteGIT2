@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DELL\\source\\repos\\Saldo\\Transacao.Application\\Transacao.Application.csproj": {}
+    "C:\\source\\TesteGIT2\\src\\Transacao.Application\\Transacao.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DELL\\source\\repos\\Saldo\\Transacao.Application\\Transacao.Application.csproj": {
+    "C:\\source\\TesteGIT2\\src\\Transacao.Application\\Transacao.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\Saldo\\Transacao.Application\\Transacao.Application.csproj",
+        "projectUniqueName": "C:\\source\\TesteGIT2\\src\\Transacao.Application\\Transacao.Application.csproj",
         "projectName": "Transacao.Application",
-        "projectPath": "C:\\Users\\DELL\\source\\repos\\Saldo\\Transacao.Application\\Transacao.Application.csproj",
+        "projectPath": "C:\\source\\TesteGIT2\\src\\Transacao.Application\\Transacao.Application.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\source\\repos\\Saldo\\Transacao.Application\\obj\\",
+        "outputPath": "C:\\source\\TesteGIT2\\src\\Transacao.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",

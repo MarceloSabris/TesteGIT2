@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Transacao.Persistence/1.0.0": {
+        "runtime": {
+          "Transacao.Persistence.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Transacao.Persistence/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

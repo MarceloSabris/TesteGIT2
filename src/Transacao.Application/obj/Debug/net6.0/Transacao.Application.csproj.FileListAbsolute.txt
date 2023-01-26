@@ -1,0 +1,12 @@
+C:\source\TesteGIT2\src\Transacao.Application\bin\Debug\net6.0\Transacao.Application.deps.json
+C:\source\TesteGIT2\src\Transacao.Application\bin\Debug\net6.0\Transacao.Application.dll
+C:\source\TesteGIT2\src\Transacao.Application\bin\Debug\net6.0\Transacao.Application.pdb
+C:\source\TesteGIT2\src\Transacao.Application\obj\Debug\net6.0\Transacao.Application.csproj.AssemblyReference.cache
+C:\source\TesteGIT2\src\Transacao.Application\obj\Debug\net6.0\Transacao.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\source\TesteGIT2\src\Transacao.Application\obj\Debug\net6.0\Transacao.Application.AssemblyInfoInputs.cache
+C:\source\TesteGIT2\src\Transacao.Application\obj\Debug\net6.0\Transacao.Application.AssemblyInfo.cs
+C:\source\TesteGIT2\src\Transacao.Application\obj\Debug\net6.0\Transacao.Application.csproj.CoreCompileInputs.cache
+C:\source\TesteGIT2\src\Transacao.Application\obj\Debug\net6.0\Transacao.Application.dll
+C:\source\TesteGIT2\src\Transacao.Application\obj\Debug\net6.0\refint\Transacao.Application.dll
+C:\source\TesteGIT2\src\Transacao.Application\obj\Debug\net6.0\Transacao.Application.pdb
+C:\source\TesteGIT2\src\Transacao.Application\obj\Debug\net6.0\ref\Transacao.Application.dll

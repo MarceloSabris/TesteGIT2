@@ -1,0 +1,12 @@
+C:\source\TesteGIT2\src\Transacao.Persistence\bin\Debug\net6.0\Transacao.Persistence.deps.json
+C:\source\TesteGIT2\src\Transacao.Persistence\bin\Debug\net6.0\Transacao.Persistence.dll
+C:\source\TesteGIT2\src\Transacao.Persistence\bin\Debug\net6.0\Transacao.Persistence.pdb
+C:\source\TesteGIT2\src\Transacao.Persistence\obj\Debug\net6.0\Transacao.Persistence.csproj.AssemblyReference.cache
+C:\source\TesteGIT2\src\Transacao.Persistence\obj\Debug\net6.0\Transacao.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\source\TesteGIT2\src\Transacao.Persistence\obj\Debug\net6.0\Transacao.Persistence.AssemblyInfoInputs.cache
+C:\source\TesteGIT2\src\Transacao.Persistence\obj\Debug\net6.0\Transacao.Persistence.AssemblyInfo.cs
+C:\source\TesteGIT2\src\Transacao.Persistence\obj\Debug\net6.0\Transacao.Persistence.csproj.CoreCompileInputs.cache
+C:\source\TesteGIT2\src\Transacao.Persistence\obj\Debug\net6.0\Transacao.Persistence.dll
+C:\source\TesteGIT2\src\Transacao.Persistence\obj\Debug\net6.0\refint\Transacao.Persistence.dll
+C:\source\TesteGIT2\src\Transacao.Persistence\obj\Debug\net6.0\Transacao.Persistence.pdb
+C:\source\TesteGIT2\src\Transacao.Persistence\obj\Debug\net6.0\ref\Transacao.Persistence.dll

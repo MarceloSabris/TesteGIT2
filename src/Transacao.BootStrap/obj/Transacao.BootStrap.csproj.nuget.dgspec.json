@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DELL\\source\\repos\\Saldo\\Transacao.BootStrap\\Transacao.BootStrap.csproj": {}
+    "C:\\source\\TesteGIT2\\src\\Transacao.BootStrap\\Transacao.BootStrap.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DELL\\source\\repos\\Saldo\\Transacao.BootStrap\\Transacao.BootStrap.csproj": {
+    "C:\\source\\TesteGIT2\\src\\Transacao.BootStrap\\Transacao.BootStrap.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\Saldo\\Transacao.BootStrap\\Transacao.BootStrap.csproj",
+        "projectUniqueName": "C:\\source\\TesteGIT2\\src\\Transacao.BootStrap\\Transacao.BootStrap.csproj",
         "projectName": "Transacao.BootStrap",
-        "projectPath": "C:\\Users\\DELL\\source\\repos\\Saldo\\Transacao.BootStrap\\Transacao.BootStrap.csproj",
+        "projectPath": "C:\\source\\TesteGIT2\\src\\Transacao.BootStrap\\Transacao.BootStrap.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\source\\repos\\Saldo\\Transacao.BootStrap\\obj\\",
+        "outputPath": "C:\\source\\TesteGIT2\\src\\Transacao.BootStrap\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
