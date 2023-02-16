@@ -24,7 +24,7 @@ namespace Microsoft.Extensions.DependencyInjection
 
             configure?.Invoke(builder);
 
-           
+                    
 
             return services;
         }

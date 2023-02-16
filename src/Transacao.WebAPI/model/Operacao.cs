@@ -6,7 +6,7 @@
         public int idCliente { get; set; }
 
         public decimal Valor { get; set; }
-        public TipoLancamento YipoLancamento { get; set; }
+        public TipoLancamento TipoLancamento { get; set; }
         //poderia teter um cadastro de origem , como se trata de um teste
         // simplifiquei como string 
         public string Origem { get; set; }

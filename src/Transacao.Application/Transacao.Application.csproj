@@ -6,4 +6,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Flunt" Version="2.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Transacao.Infraestructure.Utils\Transacao.Infraestructure.Utils.csproj" />
+    <ProjectReference Include="..\Transacao.InfraStructure.Mediator\Transacao.InfraStructure.Mediator.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -10,3 +10,8 @@ C:\source\TesteGIT2\src\Transacao.Application\obj\Debug\net6.0\Transacao.Applica
 C:\source\TesteGIT2\src\Transacao.Application\obj\Debug\net6.0\refint\Transacao.Application.dll
 C:\source\TesteGIT2\src\Transacao.Application\obj\Debug\net6.0\Transacao.Application.pdb
 C:\source\TesteGIT2\src\Transacao.Application\obj\Debug\net6.0\ref\Transacao.Application.dll
+C:\source\TesteGIT2\src\Transacao.Application\bin\Debug\net6.0\Transacao.Infraestructure.Utils.dll
+C:\source\TesteGIT2\src\Transacao.Application\bin\Debug\net6.0\Transacao.InfraStructure.Mediator.dll
+C:\source\TesteGIT2\src\Transacao.Application\bin\Debug\net6.0\Transacao.Infraestructure.Utils.pdb
+C:\source\TesteGIT2\src\Transacao.Application\bin\Debug\net6.0\Transacao.InfraStructure.Mediator.pdb
+C:\source\TesteGIT2\src\Transacao.Application\obj\Debug\net6.0\Transacao.Application.csproj.CopyComplete

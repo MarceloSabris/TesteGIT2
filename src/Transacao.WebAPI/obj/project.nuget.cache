@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "auQ6VD/7oNzhGArZS9yrDdc7f5t6uYhAi4/rOuGhCC6bEm653bo4/SYwNBVDDYaE6dmMBc1TXkGsPTntF1SaUg==",
+  "dgSpecHash": "XeckEP/tLL9BJKMXRui5kJXJsMZe/ellApyHZquzNJ543YBF0GGoJ8GMzjTY7RKcI/KW3CaSVRG4ORfGKMdDqw==",
   "success": true,
   "projectFilePath": "C:\\source\\TesteGIT2\\src\\Transacao.WebAPI\\Transacoes.WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\apachethrift\\0.14.1\\apachethrift.0.14.1.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\jaeger\\1.0.3\\jaeger.1.0.3.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\jaeger.communication.thrift\\1.0.3\\jaeger.communication.thrift.1.0.3.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\jaeger.core\\1.0.3\\jaeger.core.1.0.3.nupkg.sha512",

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Transacao.Infraestructure.Utils/1.0.0": {
+        "runtime": {
+          "Transacao.Infraestructure.Utils.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Transacao.Infraestructure.Utils/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

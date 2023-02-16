@@ -24,6 +24,15 @@
           "lib/netstandard2.1/Thrift.dll": {}
         }
       },
+      "Flunt/2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        }
+      },
       "Jaeger/1.0.3": {
         "type": "package",
         "dependencies": {
@@ -1562,6 +1571,51 @@
           "lib/netstandard1.3/System.Threading.ThreadPool.dll": {}
         }
       },
+      "Transacao.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Flunt": "2.0.5",
+          "Transacao.InfraStructure.Mediator": "1.0.0",
+          "Transacao.Infraestructure.Utils": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Transacao.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Transacao.Application.dll": {}
+        }
+      },
+      "Transacao.BootStrap/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Transacao.BootStrap.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Transacao.BootStrap.dll": {}
+        }
+      },
+      "Transacao.Dommain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Transacao.Dommain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Transacao.Dommain.dll": {}
+        }
+      },
+      "Transacao.Infraestructure.Utils/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Transacao.Infraestructure.Utils.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Transacao.Infraestructure.Utils.dll": {}
+        }
+      },
       "Transacao.InfraStructure.Mediator/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1574,6 +1628,16 @@
         },
         "runtime": {
           "bin/placeholder/Transacao.InfraStructure.Mediator.dll": {}
+        }
+      },
+      "Transacao.Persistence/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Transacao.Persistence.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Transacao.Persistence.dll": {}
         }
       }
     }
@@ -1590,6 +1654,19 @@
         "apachethrift.nuspec",
         "lib/netstandard2.0/Thrift.dll",
         "lib/netstandard2.1/Thrift.dll"
+      ]
+    },
+    "Flunt/2.0.5": {
+      "sha512": "CMgq8FUYjkHzyZT3PhkUwZyy79mudON+EL4b0SAT7BfIOJ2CNypwnbdA0cPHAM2CYQfO2L8ubNJCiBHQOIv2pA==",
+      "type": "package",
+      "path": "flunt/2.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "flunt.2.0.5.nupkg.sha512",
+        "flunt.nuspec",
+        "icon.png",
+        "lib/netstandard2.0/Flunt.dll"
       ]
     },
     "Jaeger/1.0.3": {
@@ -5072,20 +5149,51 @@
         "system.threading.threadpool.nuspec"
       ]
     },
+    "Transacao.Application/1.0.0": {
+      "type": "project",
+      "path": "../Transacao.Application/Transacao.Application.csproj",
+      "msbuildProject": "../Transacao.Application/Transacao.Application.csproj"
+    },
+    "Transacao.BootStrap/1.0.0": {
+      "type": "project",
+      "path": "../Transacao.BootStrap/Transacao.BootStrap.csproj",
+      "msbuildProject": "../Transacao.BootStrap/Transacao.BootStrap.csproj"
+    },
+    "Transacao.Dommain/1.0.0": {
+      "type": "project",
+      "path": "../Transacao.Dommain/Transacao.Dommain.csproj",
+      "msbuildProject": "../Transacao.Dommain/Transacao.Dommain.csproj"
+    },
+    "Transacao.Infraestructure.Utils/1.0.0": {
+      "type": "project",
+      "path": "../Transacao.Infraestructure.Utils/Transacao.Infraestructure.Utils.csproj",
+      "msbuildProject": "../Transacao.Infraestructure.Utils/Transacao.Infraestructure.Utils.csproj"
+    },
     "Transacao.InfraStructure.Mediator/1.0.0": {
       "type": "project",
       "path": "../Transacao.InfraStructure.Mediator/Transacao.InfraStructure.Mediator.csproj",
       "msbuildProject": "../Transacao.InfraStructure.Mediator/Transacao.InfraStructure.Mediator.csproj"
+    },
+    "Transacao.Persistence/1.0.0": {
+      "type": "project",
+      "path": "../Transacao.Persistence/Transacao.Persistence.csproj",
+      "msbuildProject": "../Transacao.Persistence/Transacao.Persistence.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "MediatR.Contracts >= 1.0.1",
       "MediatR.Extensions.Microsoft.DependencyInjection >= 11.0.0",
+      "Microsoft.AspNetCore.Mvc.Versioning >= 5.0.0",
       "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer >= 5.0.0",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.14.0",
       "Swashbuckle.AspNetCore >= 6.2.3",
-      "Transacao.InfraStructure.Mediator >= 1.0.0"
+      "Transacao.Application >= 1.0.0",
+      "Transacao.BootStrap >= 1.0.0",
+      "Transacao.Dommain >= 1.0.0",
+      "Transacao.InfraStructure.Mediator >= 1.0.0",
+      "Transacao.Infraestructure.Utils >= 1.0.0",
+      "Transacao.Persistence >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5115,8 +5223,23 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\source\\TesteGIT2\\src\\Transacao.Application\\Transacao.Application.csproj": {
+              "projectPath": "C:\\source\\TesteGIT2\\src\\Transacao.Application\\Transacao.Application.csproj"
+            },
+            "C:\\source\\TesteGIT2\\src\\Transacao.BootStrap\\Transacao.BootStrap.csproj": {
+              "projectPath": "C:\\source\\TesteGIT2\\src\\Transacao.BootStrap\\Transacao.BootStrap.csproj"
+            },
+            "C:\\source\\TesteGIT2\\src\\Transacao.Dommain\\Transacao.Dommain.csproj": {
+              "projectPath": "C:\\source\\TesteGIT2\\src\\Transacao.Dommain\\Transacao.Dommain.csproj"
+            },
+            "C:\\source\\TesteGIT2\\src\\Transacao.Infraestructure.Utils\\Transacao.Infraestructure.Utils.csproj": {
+              "projectPath": "C:\\source\\TesteGIT2\\src\\Transacao.Infraestructure.Utils\\Transacao.Infraestructure.Utils.csproj"
+            },
             "C:\\source\\TesteGIT2\\src\\Transacao.InfraStructure.Mediator\\Transacao.InfraStructure.Mediator.csproj": {
               "projectPath": "C:\\source\\TesteGIT2\\src\\Transacao.InfraStructure.Mediator\\Transacao.InfraStructure.Mediator.csproj"
+            },
+            "C:\\source\\TesteGIT2\\src\\Transacao.Persistence\\Transacao.Persistence.csproj": {
+              "projectPath": "C:\\source\\TesteGIT2\\src\\Transacao.Persistence\\Transacao.Persistence.csproj"
             }
           }
         }
@@ -5138,6 +5261,10 @@
           "MediatR.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
             "version": "[11.0.0, )"
+          },
+          "Microsoft.AspNetCore.Mvc.Versioning": {
+            "target": "Package",
+            "version": "[5.0.0, )"
           },
           "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer": {
             "target": "Package",

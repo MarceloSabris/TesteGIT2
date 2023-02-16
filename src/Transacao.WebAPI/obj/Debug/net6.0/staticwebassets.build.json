@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "5R0oAtkvH6ESekHXxHM7XNXGqQ5YeP/O97qyWIfGQ4M=",
-  "Source": "Saldo.WebAPI",
-  "BasePath": "_content/Saldo.WebAPI",
+  "Hash": "+HePZakxYD//hGiypNtgomqErp80APUKi7hBkoRRCLw=",
+  "Source": "Transacoes.WebAPI",
+  "BasePath": "_content/Transacoes.WebAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

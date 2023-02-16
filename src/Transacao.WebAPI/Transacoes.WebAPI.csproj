@@ -6,22 +6,26 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>426bd0a6-dae5-4cdf-985f-7011a18b7298</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+ <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Compile Remove="WeatherForecast.cs" />
-  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="MediatR.Contracts" Version="1.0.1" />
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="5.0.0" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.14.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+   
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Transacao.Application\Transacao.Application.csproj" />
+    <ProjectReference Include="..\Transacao.BootStrap\Transacao.BootStrap.csproj" />
+    <ProjectReference Include="..\Transacao.Dommain\Transacao.Dommain.csproj" />
+    <ProjectReference Include="..\Transacao.Infraestructure.Utils\Transacao.Infraestructure.Utils.csproj" />
     <ProjectReference Include="..\Transacao.InfraStructure.Mediator\Transacao.InfraStructure.Mediator.csproj" />
+    <ProjectReference Include="..\Transacao.Persistence\Transacao.Persistence.csproj" />
   </ItemGroup>
 
   <ItemGroup>
